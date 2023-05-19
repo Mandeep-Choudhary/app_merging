@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "craa5_employeeses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "craa5_employees",
+    "MaxGetRowsCount": 500,
+    "Name": "EMPLOYEESs",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "craa5_designation": "DESIGNATION",
+      "craa5_email": "EMAIL",
+      "craa5_emp_id": "EMP_ID",
+      "craa5_employees_AsyncOperations": "System Jobs",
+      "craa5_employees_BulkDeleteFailures": "Bulk Delete Failures",
+      "craa5_employees_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "craa5_employees_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "craa5_employees_ProcessSession": "Process Sessions",
+      "craa5_employees_SyncErrors": "Sync Errors",
+      "craa5_employeesid": "EMPLOYEES",
+      "craa5_first_name": "FIRST_NAME",
+      "craa5_last_name": "LAST_NAME",
+      "craa5_name": "Name",
+      "craa5_skills": "SKILLS",
+      "craa5_team": "TEAM",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "EMPLOYEESs",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "EMPLOYEESs (Views)",
+    "Name": "_craa5_employees_views",
+    "RelatedEntityName": "EMPLOYEESs",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5b82de93-f259-421e-a31a-b32f34c04252": "Inactive EMPLOYEESs",
+      "6671f42b-6006-4319-87ee-a6e8bb813fca": "EMPLOYEES Lookup View",
+      "9df934e6-b181-4e39-ad57-754d21afba7c": "EMPLOYEES Advanced Find View",
+      "a8262d00-4678-40ba-ae0a-3f2cad5a2eab": "EMPLOYEES Associated View",
+      "b70c84dc-3c84-4b48-b9a7-c7286eddfd43": "Active EMPLOYEESs"
+    }
+  },
+  {
+    "DisplayName": "Status (EMPLOYEESs)",
+    "Name": "craa5_employees_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "EMPLOYEESs"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "EMPLOYEESs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (EMPLOYEESs)",
+    "Name": "craa5_employees_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "EMPLOYEESs"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "EMPLOYEESs",
+    "Type": "OptionSetInfo"
+  }
+]
